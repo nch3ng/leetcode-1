@@ -34,7 +34,7 @@ def can_finish(num_courses, prerequisites)
     courses << course if indegree.zero?
   end
 
-  while !courses.empty?
+  until courses.empty?
     newcourses = []
     prerequisites = prerequisites.reject do |prerequisite|
       to, fr = prerequisite

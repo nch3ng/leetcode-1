@@ -39,7 +39,7 @@ def find_order(num_courses, prerequisites)
   end
 
   result = []
-  while !courses.empty?
+  until courses.empty?
     result.concat(courses)
 
     newcourses = []

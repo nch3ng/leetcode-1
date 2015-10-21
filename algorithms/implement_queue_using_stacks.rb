@@ -36,7 +36,7 @@ class Queue
   # @return {void}
   def pop
     if @out.empty?
-      @out.push(@in.pop()) while !@in.empty?
+      @out.push(@in.pop()) until @in.empty?
     end
 
     @out.pop; nil
@@ -45,7 +45,7 @@ class Queue
   # @return {Integer}
   def peek
     if @out.empty?
-      @out.push(@in.pop()) while !@in.empty?
+      @out.push(@in.pop()) until @in.empty?
     end
 
     @out[-1]
