@@ -3,6 +3,8 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 296 | [Best Meeting Point][p296]                                          |    :lock:     | Medium      |
+| 295 | [Find Median from Data Stream][p295]                                |               | Hard        |
 | 294 | [Flip Game II][p294]                                                |    :lock:     | Medium      |
 | 293 | [Flip Game][p293]                                                   |    :lock:     | Easy        |
 | 292 | [Nim Game][p292]                                                    | [Ruby][s292]  | Easy        |
@@ -15,7 +17,7 @@
 | 285 | [Inorder Successor in BST][p285]                                    |    :lock:     | Medium      |
 | 284 | [Peeking Iterator][p284]                                            |    :soon:     | Medium      |
 | 283 | [Move Zeroes][p283]                                                 | [Ruby][s283]  | Easy        |
-| 282 | [Expression Add Operators][p282]                                    |               | Hard        |
+| 282 | [Expression Add Operators][p282]                                    | [Ruby][s282]  | Hard        |
 | 281 | [Zigzag Iterator][p281]                                             |    :lock:     | Medium      |
 | 280 | [Wiggle Sort][p280]                                                 |    :lock:     | Medium      |
 | 279 | [Perfect Squares][p279]                                             |               | Medium      |
@@ -284,6 +286,8 @@
 
 
 
+[p296]:https://leetcode.com/problems/best-meeting-point/
+[p295]:https://leetcode.com/problems/find-median-from-data-stream/
 [p294]:https://leetcode.com/problems/flip-game-ii/
 [p293]:https://leetcode.com/problems/flip-game/
 [p292]:https://leetcode.com/problems/nim-game/
@@ -565,6 +569,7 @@
 [s292]:./algorithms/nim_game.rb
 [s290]:./algorithms/word_pattern.rb
 [s283]:./algorithms/move_zeroes.rb
+[s282]:./algorithms/expression_add_operators.rb
 [s278]:./algorithms/first_bad_version.rb
 [s275]:./algorithms/h_index_ii.rb
 [s274]:./algorithms/h_index.rb
