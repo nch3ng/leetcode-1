@@ -20,7 +20,7 @@
 | 282 | [Expression Add Operators][p282]                                    | [Ruby][s282]  | Hard        |
 | 281 | [Zigzag Iterator][p281]                                             |    :lock:     | Medium      |
 | 280 | [Wiggle Sort][p280]                                                 |    :lock:     | Medium      |
-| 279 | [Perfect Squares][p279]                                             |               | Medium      |
+| 279 | [Perfect Squares][p279]                                             | [Ruby][s279]  | Medium      |
 | 278 | [First Bad Version][p278]                                           | [Ruby][s278]  | Easy        |
 | 277 | [Find the Celebrity][p277]                                          |    :lock:     | Medium      |
 | 276 | [Paint Fence][p276]                                                 |    :lock:     | Easy        |
