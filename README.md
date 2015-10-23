@@ -4,7 +4,7 @@
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
 | 296 | [Best Meeting Point][p296]                                          |    :lock:     | Medium      |
-| 295 | [Find Median from Data Stream][p295]                                |               | Hard        |
+| 295 | [Find Median from Data Stream][p295]                                | [Ruby][s295]  | Hard        |
 | 294 | [Flip Game II][p294]                                                |    :lock:     | Medium      |
 | 293 | [Flip Game][p293]                                                   |    :lock:     | Easy        |
 | 292 | [Nim Game][p292]                                                    | [Ruby][s292]  | Easy        |
@@ -566,6 +566,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s295]:./algorithms/find_median_from_data_stream.rb
 [s292]:./algorithms/nim_game.rb
 [s290]:./algorithms/word_pattern.rb
 [s283]:./algorithms/move_zeroes.rb
