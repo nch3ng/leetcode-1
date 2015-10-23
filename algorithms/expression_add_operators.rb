@@ -19,31 +19,53 @@
 def add_operators(num, target)
   return [] if num.empty?
 
-  map = Array(0...num.size).each_with_object({}) do |spt, memo|
+  split = Array(0...num.size).each_with_object({}) do |spt, memo|
     subnum = num.slice(spt...num.size)
-
-    if subnum[0] == '0'
-      memo[subnum] = [[0, subnum.slice(1..-1)]]
-    else
-      memo[subnum] = Array(1..subnum.size).map do |subspt|
-        [subnum.slice(0...subspt).to_i, subnum.slice(subspt..-1)]
+    memo[subnum] =
+      if subnum[0] == '0'
+        [[0, subnum.slice(1..-1)]]
+      else
+        Array(1..subnum.size).map do |subspt|
+          [subnum.slice(0...subspt).to_i, subnum.slice(subspt..-1)]
+        end
       end
-    end
   end
 
-  q, out = [[[nil], num, '']], []
-  until q.empty?
-    deque, istream, ostream = q.shift
+  rnumbers = Array(1..num.size).map { |spt| num[-spt..-1] }
+    rcache = rnumbers.each_with_object({}) { |n, memo| memo[n] = [] }
 
-    map[istream].each do |next_num, next_istream|
-      if next_istream.empty?
-        _calculate_(deque, next_num, :+)
-        out << "#{ostream}#{next_num}" if deque[-1] == target
-      else
-        [:+, :-, :*].each do |next_op|
-          de = deque.dup; _calculate_(de, next_num, next_op)
-          q << [de, next_istream, "#{ostream}#{next_num}#{next_op}"]
+  out = []
+  rnumbers.each do |number|
+    q, c = [[[nil], number, '']], rcache[number]
+
+    until q.empty?
+      deque, istream, ostream = q.shift
+
+      split[istream].each do |lnum, rnum|
+        if rnum.empty?
+          deque.push(lnum); _calculate_(deque, :'$')
+          if number == num
+            out << "#{ostream}#{lnum}" if deque[-1] == target
+          else
+            c << [deque[-1], "#{ostream}#{lnum}"]
+          end; next
         end
+
+        rcache[rnum].each do |v, e|
+          de = deque.dup; de.push(lnum); _calculate_(de, :+)
+          de.push(v); _calculate_(de, :'$')
+          if number == num
+            out << "#{ostream}#{lnum}+#{e}" if de[-1] == target
+          else
+            c << [de[-1], "#{ostream}#{lnum}+#{e}"]
+          end
+        end
+
+        de = deque.dup; de.push(lnum); _calculate_(de, :-)
+        q << [de, rnum, "#{ostream}#{lnum}-"]
+
+        de = deque.dup; de.push(lnum); _calculate_(de, :*)
+        q << [de, rnum, "#{ostream}#{lnum}*"]
       end
     end
   end
@@ -51,11 +73,9 @@ def add_operators(num, target)
   out
 end
 
-private def _calculate_(deque, next_num, next_op)
-  deque.push(next_num)
-
+private def _calculate_(deque, next_op)
   case next_op
-  when :+, :-
+  when :+, :-, :'$'
     while true
       case deque[0]
       when nil; break
