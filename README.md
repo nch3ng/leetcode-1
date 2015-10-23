@@ -571,6 +571,7 @@
 [s290]:./algorithms/word_pattern.rb
 [s283]:./algorithms/move_zeroes.rb
 [s282]:./algorithms/expression_add_operators.rb
+[s279]:./algorithms/perfect_squares.rb
 [s278]:./algorithms/first_bad_version.rb
 [s275]:./algorithms/h_index_ii.rb
 [s274]:./algorithms/h_index.rb
