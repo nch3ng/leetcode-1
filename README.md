@@ -12,7 +12,7 @@
 | 290 | [Word Pattern][p290]                                                | [Ruby][s290]  | Easy        |
 | 289 | [Game of Life][p289]                                                | [Ruby][s289]  | Medium      |
 | 288 | [Unique Word Abbreviation][p288]                                    |    :lock:     | Easy        |
-| 287 | [Find the Duplicate Number][p287]                                   |               | Hard        |
+| 287 | [Find the Duplicate Number][p287]                                   | [Ruby][s287]  | Hard        |
 | 286 | [Walls and Gates][p286]                                             |    :lock:     | Medium      |
 | 285 | [Inorder Successor in BST][p285]                                    |    :lock:     | Medium      |
 | 284 | [Peeking Iterator][p284]                                            |    :soon:     | Medium      |
@@ -570,6 +570,7 @@
 [s292]:./algorithms/nim_game.rb
 [s290]:./algorithms/word_pattern.rb
 [s289]:./algorithms/game_of_life.rb
+[s287]:./algorithms/find_the_duplicate_number.rb
 [s283]:./algorithms/move_zeroes.rb
 [s282]:./algorithms/expression_add_operators.rb
 [s279]:./algorithms/perfect_squares.rb
