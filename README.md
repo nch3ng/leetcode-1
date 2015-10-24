@@ -10,7 +10,7 @@
 | 292 | [Nim Game][p292]                                                    | [Ruby][s292]  | Easy        |
 | 291 | [Word Pattern II][p291]                                             |    :lock:     | Hard        |
 | 290 | [Word Pattern][p290]                                                | [Ruby][s290]  | Easy        |
-| 289 | [Game of Life][p289]                                                |               | Medium      |
+| 289 | [Game of Life][p289]                                                | [Ruby][s289]  | Medium      |
 | 288 | [Unique Word Abbreviation][p288]                                    |    :lock:     | Easy        |
 | 287 | [Find the Duplicate Number][p287]                                   |               | Hard        |
 | 286 | [Walls and Gates][p286]                                             |    :lock:     | Medium      |
@@ -569,6 +569,7 @@
 [s295]:./algorithms/find_median_from_data_stream.rb
 [s292]:./algorithms/nim_game.rb
 [s290]:./algorithms/word_pattern.rb
+[s289]:./algorithms/game_of_life.rb
 [s283]:./algorithms/move_zeroes.rb
 [s282]:./algorithms/expression_add_operators.rb
 [s279]:./algorithms/perfect_squares.rb
