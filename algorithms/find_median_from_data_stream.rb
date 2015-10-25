@@ -77,8 +77,8 @@ class MedianFinder
     @minpq = PriorityQueue.new(->(x1, x2) { x1 < x2 })
   end
 
-  # @param {integer} num
-  # @return {void}
+  # @param {Integer} num
+  # @return {Void}
   # Adds a num into the data structure.
   def add_num(num)
     if @maxpq.empty?
@@ -97,7 +97,7 @@ class MedianFinder
     end; nil
   end
 
-  # @return {double}
+  # @return {Float}
   # Returns median of current data stream
   def find_median
     @maxpq.size == @minpq.size ? (@maxpq.peek + @minpq.peek).fdiv(2) : @maxpq.peek
