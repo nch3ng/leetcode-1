@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/excel-sheet-column-number/
 #
-# Given a column title as appear in an Excel sheet, return its
-# corresponding column number.
+# Given a column title as appear in an Excel sheet, return its corresponding
+# column number.
 #
 # For example:
 #
@@ -12,6 +12,11 @@
 #     Z -> 26
 #     AA -> 27
 #     AB -> 28
+#
+# Credits:
+#
+#     Special thanks to @ts for adding this problem and creating all test
+#     cases.
 
 
 # @param {String} s

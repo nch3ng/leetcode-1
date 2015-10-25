@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/excel-sheet-column-title/
 #
-# Given a positive integer, return its corresponding column title
-# as appear in an Excel sheet.
+# Given a positive integer, return its corresponding column title as appear in
+# an Excel sheet.
 #
 # For example:
 #
@@ -12,6 +12,11 @@
 #     Z -> 26
 #     AA -> 27
 #     AB -> 28
+#
+# Credits:
+#
+#     Special thanks to @ifanchu for adding this problem and creating all
+#     test cases.
 
 
 # @param {Integer} n
