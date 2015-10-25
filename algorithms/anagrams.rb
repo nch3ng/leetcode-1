@@ -10,10 +10,10 @@
 #       ["bat"]
 #     ]
 #
-# Note:
+# Notes:
 #
-#     + For the return value, each inner list's elements must follow
-#       the lexicographic order.
+#     + For the return value, each inner list's elements must follow the
+#       lexicographic order.
 #     + All inputs will be in lower-case.
 
 

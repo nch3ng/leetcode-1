@@ -6,8 +6,7 @@
 #     bool search(word)
 #
 # search(word) can search a literal word or a regular expression string
-# containing only letters a-z or .. A . means it can represent any one
-# letter.
+# containing only letters a-z or .. A . means it can represent any one letter.
 #
 # For example:
 #
