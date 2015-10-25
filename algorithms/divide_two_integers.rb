@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/divide-two-integers/
 #
-# Divide two integers without using multiplication, division and
-# mod operator. If it is overflow, return MAX_INT.
+# Divide two integers without using multiplication, division and mod operator.
+# If it is overflow, return MAX_INT.
 
 
 # Limits on Integer Constants
