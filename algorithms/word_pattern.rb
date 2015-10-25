@@ -16,6 +16,11 @@
 #     + Each word in str is separated by a single space.
 #     + Each letter in pattern must map to a word with length that is at
 #       least 1.
+#
+# Credits:
+#
+#     Special thanks to @minglotus6 for adding this problem and creating all
+#     test cases.
 
 
 # @param {String} pattern
