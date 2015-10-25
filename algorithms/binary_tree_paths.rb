@@ -2,17 +2,24 @@
 #
 # Given a binary tree, return all root-to-leaf paths.
 #
-# For example, given the following binary tree:
+# For example,
 #
-#       1
-#      / \
-#     2   3
-#      \
-#       5
+#     Given the following binary tree:
 #
-# All root-to-leaf paths are:
+#           1
+#          / \
+#         2   3
+#          \
+#           5
 #
-#     ["1->2->5", "1->3"]
+#     All root-to-leaf paths are:
+#
+#         ["1->2->5", "1->3"]
+#
+# Credits:
+#
+#     Special thanks to @jianchao.li.fighter for adding this problem and
+#     creating all test cases.
 
 
 # Definition for a binary tree node.

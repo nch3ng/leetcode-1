@@ -1,18 +1,24 @@
 # https://leetcode.com/problems/binary-tree-right-side-view/
 #
-# Given a binary tree, imagine yourself standing on the right side
-# of it, return the values of the nodes you can see ordered from
-# top to bottom.
+# Given a binary tree, imagine yourself standing on the right side of it,
+# return the values of the nodes you can see ordered from top to bottom.
 #
-# For example: Given the following binary tree,
+# For example:
 #
-#       1         <---
-#      / \
-#     2   3       <---
-#      \   \
-#       5   4     <---
+#     Given the following binary tree,
 #
-# You should return [1, 3, 4].
+#           1         <---
+#          / \
+#         2   3       <---
+#          \   \
+#           5   4     <---
+#
+#     Return [1, 3, 4].
+#
+# Credits:
+#
+#     Special thanks to @amrsaqr for adding this problem and creating all
+#     test cases.
 
 
 # Definition for a binary tree node.

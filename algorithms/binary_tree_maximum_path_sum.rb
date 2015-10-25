@@ -1,17 +1,19 @@
 # https://leetcode.com/problems/binary-tree-maximum-path-sum/
 #
-# Given a binary tree, find the maximum path sum. For this problem, a
-# path is defined as any sequence of nodes from some starting node to
-# any node in the tree along the parent-child connections. The path
-# does not need to go through the root.
+# Given a binary tree, find the maximum path sum. For this problem, a path is
+# defined as any sequence of nodes from some starting node to any node in the
+# tree along the parent-child connections. The path does not need to go
+# through the root.
 #
-# For example: Given the below binary tree,
+# For example:
 #
-#       1
-#      / \
-#     2   3
+#     Given the below binary tree:
 #
-# Return 6.
+#           1
+#          / \
+#         2   3
+#
+#     Return 6.
 
 
 # Definition for a binary tree node.

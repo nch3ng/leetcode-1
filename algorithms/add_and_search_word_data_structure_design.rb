@@ -18,7 +18,9 @@
 #     search(".ad") -> true
 #     search("b..") -> true
 #
-# Note: You may assume that all words are consist of lowercase letters a-z.
+# Note:
+#
+#     You may assume that all words are consist of lowercase letters a-z.
 
 
 class TrieNode
