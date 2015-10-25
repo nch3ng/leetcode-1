@@ -30,6 +30,11 @@
 #       principle, the board is infinite, which would cause problems when
 #       the active area encroaches the border of the array. How would you
 #       address these problems?
+#
+# Credits:
+#
+#     Special thanks to @jianchao.li.fighter for adding this problem and
+#     creating all test cases.
 
 
 # @param {Integer[][]} board
