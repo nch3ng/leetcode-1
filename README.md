@@ -77,7 +77,7 @@
 | 224 | [Basic Calculator][p224]                                            | [Ruby][s224]  | Medium      |
 | 223 | [Rectangle Area][p223]                                              | [Ruby][s223]  | Easy        |
 | 222 | [Count Complete Tree Nodes][p222]                                   | [Ruby][s222]  | Medium      |
-| 221 | [Maximal Square][p221]                                              |               | Medium      |
+| 221 | [Maximal Square][p221]                                              | [Ruby][s221]  | Medium      |
 | 220 | [Contains Duplicate III][p220]                                      | [Ruby][s220]  | Medium      |
 | 219 | [Contains Duplicate II][p219]                                       | [Ruby][s219]  | Easy        |
 | 218 | [The Skyline Problem][p218]                                         |               | Hard        |
@@ -605,6 +605,7 @@
 [s224]:./algorithms/basic_calculator.rb
 [s223]:./algorithms/rectangle_area.rb
 [s222]:./algorithms/count_complete_tree_nodes.rb
+[s221]:./algorithms/maximal_square.rb
 [s220]:./algorithms/contains_duplicate_iii.rb
 [s219]:./algorithms/contains_duplicate_ii.rb
 [s217]:./algorithms/contains_duplicate.rb
