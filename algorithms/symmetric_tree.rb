@@ -1,23 +1,25 @@
 # https://leetcode.com/problems/symmetric-tree/
 #
-# Given a binary tree, check whether it is a mirror of
-# itself (ie, symmetric around its center).
+# Given a binary tree, check whether it is a mirror of itself (ie, symmetric
+# around its center).
 #
-# For example, this binary tree is symmetric:
+# For example:
 #
-#         1
-#        / \
-#       2   2
-#      / \ / \
-#     3  4 4  3
+#     this binary tree is symmetric:
 #
-# But the following is not:
+#             1
+#            / \
+#           2   2
+#          / \ / \
+#         3  4 4  3
 #
-#         1
-#        / \
-#       2   2
-#      / \ / \
-#        3    3
+#     But the following is not:
+#
+#             1
+#            / \
+#           2   2
+#          / \ / \
+#            3    3
 
 
 # Definition for a binary tree node.
