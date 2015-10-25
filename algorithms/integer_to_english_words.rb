@@ -3,7 +3,7 @@
 # Convert a non-negative integer to its english words representation. Given
 # input is guaranteed to be less than 2 ** 31 - 1.
 #
-# For example,
+# For example:
 #
 #     123 ->
 #         One Hundred Twenty Three

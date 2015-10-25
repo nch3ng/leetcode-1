@@ -4,7 +4,7 @@
 # 'X'. A region is captured by flipping all 'O's into 'X's in that surrounded
 # region.
 #
-# For example,
+# For example:
 #
 #     X X X X
 #     X O O X

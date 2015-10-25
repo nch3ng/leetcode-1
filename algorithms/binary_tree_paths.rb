@@ -2,7 +2,7 @@
 #
 # Given a binary tree, return all root-to-leaf paths.
 #
-# For example,
+# For example:
 #
 #     Given the following binary tree:
 #

@@ -6,7 +6,7 @@
 # order of characters. No two characters may map to the same character but a
 # character may map to itself.
 #
-# For example,
+# For example:
 #
 #     Given "egg", "add", return true.
 #     Given "foo", "bar", return false.

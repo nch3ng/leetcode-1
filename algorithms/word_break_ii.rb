@@ -4,7 +4,7 @@
 # construct a sentence where each word is a valid dictionary word. Return all
 # such possible sentences.
 #
-# For example,
+# For example:
 #
 #     Given s = "catsanddog", dict = ["cat", "cats", "and", "sand", "dog"].
 #     A solution is ["cats and dog", "cat sand dog"].

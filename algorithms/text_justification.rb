@@ -11,7 +11,7 @@
 # last line of text, it should be left justified and no extra space is
 # inserted between words.
 #
-# For example,
+# For example:
 #
 #     words: ["This", "is", "an", "example", "of", "text", "justification."]
 #     L: 16.

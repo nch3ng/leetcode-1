@@ -6,7 +6,7 @@
 # the values in the nodes, only nodes itself may be changed. Only constant
 # memory is allowed.
 #
-# For example,
+# For example:
 #
 #     Given this linked list: 1 -> 2 -> 3 -> 4 -> 5
 #     For k = 2, you should return: 2 -> 1 -> 4 -> 3 -> 5

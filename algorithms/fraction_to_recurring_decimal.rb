@@ -4,7 +4,7 @@
 # return the fraction in string format. If the fractional part is repeating,
 # enclose the repeating part in parentheses.
 #
-# For example,
+# For example:
 #
 #     Given numerator = 1, denominator = 2, return "0.5".
 #     Given numerator = 2, denominator = 1, return "2".
