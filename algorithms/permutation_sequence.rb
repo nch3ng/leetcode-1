@@ -1,8 +1,8 @@
 # https://leetcode.com/problems/permutation-sequence/
 #
-# The set [1,2,3,…,n] contains a total of n! unique permutations. By listing
-# and labeling all of the permutations in order, We get the following sequence
-# (ie, for n = 3):
+# The set [1, 2, 3, ..., n] contains a total of n! unique permutations. By
+# listing and labeling all of the permutations in order, We get the following
+# sequence (ie, for n = 3):
 #
 #     1. "123"
 #     2. "132"

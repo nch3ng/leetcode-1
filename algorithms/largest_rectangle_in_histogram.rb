@@ -35,7 +35,7 @@
 #     |   |   |+-+|+-+|   |   |
 #     |___|___|+-+|+-+|___|___|
 #
-# For example, Given height = [2,1,5,6,2,3], return 10.
+# For example, Given height = [2, 1, 5, 6, 2, 3], return 10.
 
 
 # @param {Integer[]} height

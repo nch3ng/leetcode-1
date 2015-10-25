@@ -15,8 +15,8 @@
 #          / \       \
 #         7   2       1
 #
-#     Return true, as there exist a root-to-leaf
-#     path 5->4->11->2 which sum is 22.
+#     Return true, as there exist a root-to-leaf path 5 -> 4 -> 11 -> 2 which
+#     sum is 22.
 
 
 # Definition for a binary tree node.
