@@ -183,7 +183,7 @@
 | 102 | [Binary Tree Level Order Traversal][p102]                           | [Ruby][s102]  | Easy        |
 | 101 | [Symmetric Tree][p101]                                              | [Ruby][s101]  | Easy        |
 | 100 | [Same Tree][p100]                                                   | [Ruby][s100]  | Easy        |
-|  99 | [Recover Binary Search Tree][p99]                                   |               | Hard        |
+|  99 | [Recover Binary Search Tree][p99]                                   | [Ruby][s99]   | Hard        |
 |  98 | [Validate Binary Search Tree][p98]                                  | [Ruby][s98]   | Medium      |
 |  97 | [Interleaving String][p97]                                          | [Ruby][s97]   | Hard        |
 |  96 | [Unique Binary Search Trees][p96]                                   | [Ruby][s96]   | Medium      |
@@ -691,6 +691,7 @@
 [s102]:./algorithms/binary_tree_level_order_traversal.rb
 [s101]:./algorithms/symmetric_tree.rb
 [s100]:./algorithms/same_tree.rb
+[s99]:./algorithms/recover_binary_search_tree.rb
 [s98]:./algorithms/validate_binary_search_tree.rb
 [s97]:./algorithms/interleaving_string.rb
 [s96]:./algorithms/unique_binary_search_trees.rb
