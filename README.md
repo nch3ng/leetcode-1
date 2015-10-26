@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 297 | [Serialize and Deserialize Binary Tree][p297]                       | [Ruby][s297]  | Medium      |
 | 296 | [Best Meeting Point][p296]                                          |    :lock:     | Medium      |
 | 295 | [Find Median from Data Stream][p295]                                | [Ruby][s295]  | Hard        |
 | 294 | [Flip Game II][p294]                                                |    :lock:     | Medium      |
@@ -286,6 +287,7 @@
 
 
 
+[p297]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [p296]:https://leetcode.com/problems/best-meeting-point/
 [p295]:https://leetcode.com/problems/find-median-from-data-stream/
 [p294]:https://leetcode.com/problems/flip-game-ii/
@@ -566,6 +568,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s297]:./algorithms/serialize_and_deserialize_binary_tree.rb
 [s295]:./algorithms/find_median_from_data_stream.rb
 [s292]:./algorithms/nim_game.rb
 [s290]:./algorithms/word_pattern.rb
