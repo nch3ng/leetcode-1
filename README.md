@@ -81,7 +81,7 @@
 | 221 | [Maximal Square][p221]                                              | [Ruby][s221]  | Medium      |
 | 220 | [Contains Duplicate III][p220]                                      | [Ruby][s220]  | Medium      |
 | 219 | [Contains Duplicate II][p219]                                       | [Ruby][s219]  | Easy        |
-| 218 | [The Skyline Problem][p218]                                         |               | Hard        |
+| 218 | [The Skyline Problem][p218]                                         | [Ruby][s218]  | Hard        |
 | 217 | [Contains Duplicate][p217]                                          | [Ruby][s217]  | Easy        |
 | 216 | [Combination Sum III][p216]                                         | [Ruby][s216]  | Medium      |
 | 215 | [Kth Largest Element in an Array][p215]                             | [Ruby][s215]  | Medium      |
@@ -611,6 +611,7 @@
 [s221]:./algorithms/maximal_square.rb
 [s220]:./algorithms/contains_duplicate_iii.rb
 [s219]:./algorithms/contains_duplicate_ii.rb
+[s218]:./algorithms/the_skyline_problem.rb
 [s217]:./algorithms/contains_duplicate.rb
 [s216]:./algorithms/combination_sum_iii.rb
 [s215]:./algorithms/kth_largest_element_in_an_array.rb
