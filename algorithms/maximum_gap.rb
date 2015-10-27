@@ -13,12 +13,6 @@
 #     test cases.
 
 
-# Limits on Integer Constants
-INT_BIT = 32
-INT_MAX =  2 ** (INT_BIT - 1) - 1
-INT_MIN = -2 ** (INT_BIT - 1)
-
-
 # @param {Integer[]} nums
 # @return {Integer}
 def maximum_gap(nums)
@@ -28,8 +22,8 @@ def maximum_gap(nums)
   return 0 if min == max
 
   interval = (max - min).fdiv(nums.size - 1)
-  minarray = Array.new(nums.size, INT_MAX)
-  maxarray = Array.new(nums.size, INT_MIN)
+  minarray = Array.new(nums.size,  Float::INFINITY)
+  maxarray = Array.new(nums.size, -Float::INFINITY)
 
   nums.each do |num|
     aidx = (num - min).fdiv(interval).floor
@@ -40,7 +34,7 @@ def maximum_gap(nums)
   gap = maxarray[0] - minarray[0]
   num = maxarray[0]
   1.upto(nums.size - 1) do |aidx|
-    next if minarray[aidx] == INT_MAX
+    next if minarray[aidx] == Float::INFINITY
     gap = minarray[aidx] - num if gap < minarray[aidx] - num
     num = maxarray[aidx]
   end
