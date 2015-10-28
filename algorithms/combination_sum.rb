@@ -28,7 +28,7 @@ def combination_sum(candidates, target)
 end
 
 private def _combination_sum_(nums, lbound, ubound, target, tracing, result)
-  sum = tracing.reduce(&:+) || 0
+  sum = tracing.reduce(0, &:+)
   nums[lbound..ubound].each_with_index do |n, i|
     break if sum + n > target
 

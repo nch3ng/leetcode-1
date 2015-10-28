@@ -31,7 +31,7 @@ def combination_sum3(k, n)
 end
 
 private def _combination_sum3_(lbound, ubound, k, n, tracing, result)
-  sum = tracing.reduce(&:+) || 0
+  sum = tracing.reduce(0, &:+)
   lbound.upto(ubound) do |i|
     break if sum + i > n
 

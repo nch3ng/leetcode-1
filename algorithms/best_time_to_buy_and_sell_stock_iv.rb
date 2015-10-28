@@ -31,5 +31,5 @@ def max_profit(k, prices)
 end
 
 private def _max_profit_kmax_(prices)
-  prices.each_cons(2).map(&->(p1, p2){ [p2 - p1, 0].max }).reduce(&:+) || 0
+  prices.each_cons(2).map(&->(p1, p2){ [p2 - p1, 0].max }).reduce(0, &:+)
 end
