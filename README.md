@@ -85,7 +85,7 @@
 | 217 | [Contains Duplicate][p217]                                          | [Ruby][s217]  | Easy        |
 | 216 | [Combination Sum III][p216]                                         | [Ruby][s216]  | Medium      |
 | 215 | [Kth Largest Element in an Array][p215]                             | [Ruby][s215]  | Medium      |
-| 214 | [Shortest Palindrome][p214]                                         |               | Hard        |
+| 214 | [Shortest Palindrome][p214]                                         | [Ruby][s214]  | Hard        |
 | 213 | [House Robber II][p213]                                             | [Ruby][s213]  | Medium      |
 | 212 | [Word Search II][p212]                                              | [Ruby][s212]  | Hard        |
 | 211 | [Add and Search Word - Data structure design][p211]                 | [Ruby][s211]  | Medium      |
@@ -615,6 +615,7 @@
 [s217]:./algorithms/contains_duplicate.rb
 [s216]:./algorithms/combination_sum_iii.rb
 [s215]:./algorithms/kth_largest_element_in_an_array.rb
+[s214]:./algorithms/shortest_palindrome.rb
 [s213]:./algorithms/house_robber_ii.rb
 [s212]:./algorithms/word_search.rb
 [s211]:./algorithms/add_and_search_word_data_structure_design.rb
