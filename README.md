@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 298 | [Binary Tree Longest Consecutive Sequence][p298]                    |    :lock:     | Medium      |
 | 297 | [Serialize and Deserialize Binary Tree][p297]                       | [Ruby][s297]  | Medium      |
 | 296 | [Best Meeting Point][p296]                                          |    :lock:     | Medium      |
 | 295 | [Find Median from Data Stream][p295]                                | [Ruby][s295]  | Hard        |
@@ -287,6 +288,7 @@
 
 
 
+[p298]:https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 [p297]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [p296]:https://leetcode.com/problems/best-meeting-point/
 [p295]:https://leetcode.com/problems/find-median-from-data-stream/
