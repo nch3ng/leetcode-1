@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 299 | [Bulls and Cows][p299]                                              | [Ruby][s299]  | Easy        |
 | 298 | [Binary Tree Longest Consecutive Sequence][p298]                    |    :lock:     | Medium      |
 | 297 | [Serialize and Deserialize Binary Tree][p297]                       | [Ruby][s297]  | Medium      |
 | 296 | [Best Meeting Point][p296]                                          |    :lock:     | Medium      |
@@ -288,6 +289,7 @@
 
 
 
+[p299]:https://leetcode.com/problems/bulls-and-cows/
 [p298]:https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 [p297]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [p296]:https://leetcode.com/problems/best-meeting-point/
@@ -570,6 +572,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s299]:./algorithms/bulls_and_cows.rb
 [s297]:./algorithms/serialize_and_deserialize_binary_tree.rb
 [s295]:./algorithms/find_median_from_data_stream.rb
 [s292]:./algorithms/nim_game.rb
