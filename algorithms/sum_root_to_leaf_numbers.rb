@@ -30,7 +30,7 @@
 # @return {Integer}
 def sum_numbers(root)
   return 0 if root.nil?
-  return [].tap { |nums| _traversal_(root, root.val, nums) }.reduce(&:+)
+  return [].tap(&Proc.new{ |nums| _traversal_(root, root.val, nums) }).reduce(&:+)
 end
 
 private def _traversal_(root, num, nums)
