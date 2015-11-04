@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 300 | [Longest Increasing Subsequence][p300]                              | [Ruby][s300]  | Medium      |
 | 299 | [Bulls and Cows][p299]                                              | [Ruby][s299]  | Easy        |
 | 298 | [Binary Tree Longest Consecutive Sequence][p298]                    |    :lock:     | Medium      |
 | 297 | [Serialize and Deserialize Binary Tree][p297]                       | [Ruby][s297]  | Medium      |
@@ -289,6 +290,7 @@
 
 
 
+[p300]:https://leetcode.com/problems/longest-increasing-subsequence/
 [p299]:https://leetcode.com/problems/bulls-and-cows/
 [p298]:https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 [p297]:https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
@@ -572,6 +574,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s300]:./algorithms/longest_increasing_subsequence.rb
 [s299]:./algorithms/bulls_and_cows.rb
 [s297]:./algorithms/serialize_and_deserialize_binary_tree.rb
 [s295]:./algorithms/find_median_from_data_stream.rb
