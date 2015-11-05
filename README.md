@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 301 | [Remove Invalid Parentheses][p301]                                  | [Ruby][s301]  | Medium      |
 | 300 | [Longest Increasing Subsequence][p300]                              | [Ruby][s300]  | Medium      |
 | 299 | [Bulls and Cows][p299]                                              | [Ruby][s299]  | Easy        |
 | 298 | [Binary Tree Longest Consecutive Sequence][p298]                    |    :lock:     | Medium      |
@@ -290,6 +291,7 @@
 
 
 
+[p301]:https://leetcode.com/problems/remove-invalid-parentheses/
 [p300]:https://leetcode.com/problems/longest-increasing-subsequence/
 [p299]:https://leetcode.com/problems/bulls-and-cows/
 [p298]:https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
@@ -574,6 +576,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s301]:./algorithms/remove_invalid_parentheses.rb
 [s300]:./algorithms/longest_increasing_subsequence.rb
 [s299]:./algorithms/bulls_and_cows.rb
 [s297]:./algorithms/serialize_and_deserialize_binary_tree.rb
