@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 302 | [Smallest Rectangle Enclosing Black Pixels][p302]                   |   :lock:      | Medium      |
 | 301 | [Remove Invalid Parentheses][p301]                                  | [Ruby][s301]  | Medium      |
 | 300 | [Longest Increasing Subsequence][p300]                              | [Ruby][s300]  | Medium      |
 | 299 | [Bulls and Cows][p299]                                              | [Ruby][s299]  | Easy        |
@@ -291,6 +292,7 @@
 
 
 
+[p302]:https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 [p301]:https://leetcode.com/problems/remove-invalid-parentheses/
 [p300]:https://leetcode.com/problems/longest-increasing-subsequence/
 [p299]:https://leetcode.com/problems/bulls-and-cows/
