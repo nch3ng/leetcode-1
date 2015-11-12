@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 304 | [Range Sum Query 2D - Immutable][p304]                              | [Ruby][s304]  | Medium      |
 | 303 | [Range Sum Query - Immutable][p303]                                 | [Ruby][s303]  | Easy        |
 | 302 | [Smallest Rectangle Enclosing Black Pixels][p302]                   |   :lock:      | Medium      |
 | 301 | [Remove Invalid Parentheses][p301]                                  | [Ruby][s301]  | Medium      |
@@ -293,6 +294,7 @@
 
 
 
+[p304]:https://leetcode.com/problems/range-sum-query-2d-immutable/
 [p303]:https://leetcode.com/problems/range-sum-query-immutable/
 [p302]:https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
 [p301]:https://leetcode.com/problems/remove-invalid-parentheses/
@@ -580,6 +582,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s304]:./algorithms/range_sum_query_2d_immutable.rb
 [s303]:./algorithms/range_sum_query_immutable.rb
 [s301]:./algorithms/remove_invalid_parentheses.rb
 [s300]:./algorithms/longest_increasing_subsequence.rb
