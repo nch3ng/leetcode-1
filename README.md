@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 305 | [Number of Islands II][p305]                                        |   :lock:      | Hard        |
 | 304 | [Range Sum Query 2D - Immutable][p304]                              | [Ruby][s304]  | Medium      |
 | 303 | [Range Sum Query - Immutable][p303]                                 | [Ruby][s303]  | Easy        |
 | 302 | [Smallest Rectangle Enclosing Black Pixels][p302]                   |   :lock:      | Medium      |
@@ -294,6 +295,7 @@
 
 
 
+[p305]:https://leetcode.com/problems/number-of-islands-ii/
 [p304]:https://leetcode.com/problems/range-sum-query-2d-immutable/
 [p303]:https://leetcode.com/problems/range-sum-query-immutable/
 [p302]:https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
