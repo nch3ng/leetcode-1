@@ -3,6 +3,13 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 312 | [Burst Balloons][p312]                                              |               | Medium      |
+| 311 | [Sparse Matrix Multiplication ][p311]                               |   :lock:      | Medium      |
+| 310 | [Minimum Height Trees][p310]                                        |               | Medium      |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown][p309]               |               | Medium      |
+| 308 | [Range Sum Query 2D - Mutable][p308]                                |   :lock:      | Hard        |
+| 307 | [Range Sum Query - Mutable][p307]                                   |               | Medium      |
+| 306 | [Additive Number][p306]                                             |               | Medium      |
 | 305 | [Number of Islands II][p305]                                        |   :lock:      | Hard        |
 | 304 | [Range Sum Query 2D - Immutable][p304]                              | [Ruby][s304]  | Medium      |
 | 303 | [Range Sum Query - Immutable][p303]                                 | [Ruby][s303]  | Easy        |
@@ -295,6 +302,13 @@
 
 
 
+[p312]:https://leetcode.com/problems/burst-balloons/
+[p311]:https://leetcode.com/problems/sparse-matrix-multiplication/
+[p310]:https://leetcode.com/problems/minimum-height-trees/
+[p309]:https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+[p308]:https://leetcode.com/problems/range-sum-query-2d-mutable/
+[p307]:https://leetcode.com/problems/range-sum-query-mutable/
+[p306]:https://leetcode.com/problems/additive-number/
 [p305]:https://leetcode.com/problems/number-of-islands-ii/
 [p304]:https://leetcode.com/problems/range-sum-query-2d-immutable/
 [p303]:https://leetcode.com/problems/range-sum-query-immutable/
