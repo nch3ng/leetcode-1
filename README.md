@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 313 | [Super Ugly Number][p313]                                           |               | Medium      |
 | 312 | [Burst Balloons][p312]                                              |               | Medium      |
 | 311 | [Sparse Matrix Multiplication ][p311]                               |   :lock:      | Medium      |
 | 310 | [Minimum Height Trees][p310]                                        |               | Medium      |
@@ -302,6 +303,7 @@
 
 
 
+[p313]:https://leetcode.com/problems/super-ugly-number/
 [p312]:https://leetcode.com/problems/burst-balloons/
 [p311]:https://leetcode.com/problems/sparse-matrix-multiplication/
 [p310]:https://leetcode.com/problems/minimum-height-trees/
