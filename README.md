@@ -3,6 +3,7 @@
 
 |  #  | Title                                                               | Solution      | Difficulty  |
 |-----|---------------------------------------------------------------------|---------------|-------------|
+| 314 | [Binary Tree Vertical Order Traversal][p314]                        |   :lock:      | Medium      |
 | 313 | [Super Ugly Number][p313]                                           |               | Medium      |
 | 312 | [Burst Balloons][p312]                                              |               | Medium      |
 | 311 | [Sparse Matrix Multiplication ][p311]                               |   :lock:      | Medium      |
@@ -303,6 +304,7 @@
 
 
 
+[p314]:https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 [p313]:https://leetcode.com/problems/super-ugly-number/
 [p312]:https://leetcode.com/problems/burst-balloons/
 [p311]:https://leetcode.com/problems/sparse-matrix-multiplication/
