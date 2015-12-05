@@ -9,7 +9,7 @@
 | 310 | [Minimum Height Trees][p310]                                        |               | Medium      |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown][p309]               |               | Medium      |
 | 308 | [Range Sum Query 2D - Mutable][p308]                                |   :lock:      | Hard        |
-| 307 | [Range Sum Query - Mutable][p307]                                   |               | Medium      |
+| 307 | [Range Sum Query - Mutable][p307]                                   | [Ruby][s307]  | Medium      |
 | 306 | [Additive Number][p306]                                             | [Ruby][s306]  | Medium      |
 | 305 | [Number of Islands II][p305]                                        |   :lock:      | Hard        |
 | 304 | [Range Sum Query 2D - Immutable][p304]                              | [Ruby][s304]  | Medium      |
@@ -600,6 +600,7 @@
 [p2]:https://leetcode.com/problems/add-two-numbers/
 [p1]:https://leetcode.com/problems/two-sum/
 
+[s307]:./algorithms/range_sum_query_mutable.rb
 [s306]:./algorithms/additive_number.rb
 [s304]:./algorithms/range_sum_query_2d_immutable.rb
 [s303]:./algorithms/range_sum_query_immutable.rb
